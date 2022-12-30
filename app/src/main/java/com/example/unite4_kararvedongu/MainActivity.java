@@ -38,4 +38,12 @@ public class MainActivity extends AppCompatActivity {
         Intent a = new Intent(MainActivity.this, Uyg5Activity.class);
         startActivity(a);
     }
+    public void GoldSoru1Goster(View view) {
+        Intent a = new Intent(MainActivity.this, GoldSoru1Activity.class);
+        startActivity(a);
+    }
+    public void GoldSoru2Goster(View view) {
+        Intent a = new Intent(MainActivity.this, GoldSoru2Activity.class);
+        startActivity(a);
+    }
 }
